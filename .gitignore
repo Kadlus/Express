@@ -1,3 +1,5 @@
 .vercel
 .env
 .readme
+.idea
+node_modules/
