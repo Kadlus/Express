@@ -1,5 +1,5 @@
 export const corsOptions = {
-    origin: ['https://express-ko24skteu-kmitms-projects.vercel.app/'],
+    origin: ['https://express-js-self.vercel.app'],
     methods: ['GET'],
 };
 
