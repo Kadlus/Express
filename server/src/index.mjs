@@ -12,7 +12,7 @@ import productRouter from '../routes/products.mjs';
 //parsování do JSON
 app.use(express.json());
 //omezený počet requestů
-app.use(limiter);
+//app.use(limiter);
 
 app.use(cors(corsOptions));
 //použití souboru jako cesta
