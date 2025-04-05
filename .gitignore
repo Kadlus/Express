@@ -3,3 +3,4 @@
 .readme
 .idea/
 node_modules/
+server/routes/products.mjs
