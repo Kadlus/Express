@@ -1,53 +1,28 @@
-// Pole produktů
+// Pole produktů (25 záznamů)
 export const products = [
-    {
-        id: 1,
-        name: "Laptop",
-        price: 25999,
-        category: "Electronics",
-        inStock: true,
-        brand: "Lenovo"
-    },
-    {
-        id: 2,
-        name: "Smartphone",
-        price: 15999,
-        category: "Electronics",
-        inStock: true,
-        brand: "Samsung"
-    },
-    {
-        id: 3,
-        name: "Running Shoes",
-        price: 2999,
-        category: "Footwear",
-        inStock: false,
-        brand: "Nike"
-    },
-    {
-        id: 4,
-        name: "Backpack",
-        price: 799,
-        category: "Accessories",
-        inStock: true,
-        brand: "Adidas"
-    },
-    {
-        id: 5,
-        name: "Coffee Maker",
-        price: 2499,
-        category: "Home Appliances",
-        inStock: false,
-        brand: "Philips"
-    },
-    {
-        id: 6,
-        name: "Bender",
-        price: 6999,
-        category: "Home Appliances",
-        inStock: true,
-        brand: "Tescoma"
-    }
+    {id: 1, name: "Laptop", price: 25999, category: "Electronics", inStock: true, brand: "Lenovo"},
+    {id: 2, name: "Smartphone", price: 15999, category: "Electronics", inStock: true, brand: "Samsung"},
+    {id: 3, name: "Running Shoes", price: 2999, category: "Footwear", inStock: false, brand: "Nike"},
+    {id: 4, name: "Backpack", price: 799, category: "Accessories", inStock: true, brand: "Adidas"},
+    {id: 5, name: "Coffee Maker", price: 2499, category: "Home Appliances", inStock: false, brand: "Philips"},
+    {id: 6, name: "Blender", price: 6999, category: "Home Appliances", inStock: true, brand: "Tescoma"},
+    {id: 7, name: "Wireless Mouse", price: 499, category: "Electronics", inStock: true, brand: "Logitech"},
+    {id: 8, name: "Gaming Keyboard", price: 1899, category: "Electronics", inStock: false, brand: "Razer"},
+    {id: 9, name: "Desk Lamp", price: 699, category: "Furniture", inStock: true, brand: "Ikea"},
+    {id: 10, name: "Office Chair", price: 4599, category: "Furniture", inStock: true, brand: "Ikea"},
+    {id: 11, name: "Water Bottle", price: 299, category: "Accessories", inStock: true, brand: "Hydro Flask"},
+    {id: 12, name: "Yoga Mat", price: 799, category: "Fitness", inStock: false, brand: "Reebok"},
+    {id: 13, name: "T-shirt", price: 499, category: "Clothing", inStock: true, brand: "Puma"},
+    {id: 14, name: "Bluetooth Speaker", price: 2199, category: "Electronics", inStock: true, brand: "JBL"},
+    {id: 15, name: "Smartwatch", price: 4599, category: "Electronics", inStock: true, brand: "Apple"},
+    {id: 16, name: "Electric Kettle", price: 1399, category: "Home Appliances", inStock: true, brand: "Sencor"},
+    {id: 17, name: "Jeans", price: 999, category: "Clothing", inStock: false, brand: "Levi's"},
+    {id: 18, name: "Sunglasses", price: 1299, category: "Accessories", inStock: true, brand: "Ray-Ban"},
+    {id: 19, name: "Printer", price: 2999, category: "Electronics", inStock: true, brand: "HP"},
+    {id: 20, name: "USB Flash Drive 64GB", price: 299, category: "Electronics", inStock: true, brand: "Kingston"},
+    {id: 21, name: "Electric Toothbrush", price: 899, category: "Personal Care", inStock: false, brand: "Oral-B"},
+    {id: 22, name: "Hair Dryer", price: 1199, category: "Personal Care", inStock: true, brand: "Rowenta"},
+    {id: 23, name: "Cookware Set", price: 3499, category: "Home Appliances", inStock: true, brand: "Tefal"},
+    {id: 24, name: "Book – The Hobbit", price: 399, category: "Books", inStock: true, brand: "HarperCollins"},
+    {id: 25, name: "Board Game – Catan", price: 899, category: "Entertainment", inStock: true, brand: "Kosmos"}
 ];
-
-

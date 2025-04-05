@@ -1,12 +1,12 @@
 {
   "name": "expressjs",
   "version": "1.0.0",
-  "main": "server/src/index.mjs",
+  "main": "app.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon server/src/index.mjs",
-    "start": "node server/src/index.mjs",
-    "dev": "nodemon server/src/index.mjs"
+    "start:dev": "nodemon app.mjs",
+    "dev": "nodemon app.mjs",
+    "start": "node app.mjs"
   },
   "keywords": [],
   "author": "",
