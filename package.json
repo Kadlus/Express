@@ -1,18 +1,21 @@
 {
   "name": "expressjs",
   "version": "1.0.0",
-  "main": "./server/src/index.mjs",
+  "main": "server/src/index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon ./server/src/index.mjs",
-    "start": "node ./server/src/index.mjs"
+    "start:dev": "nodemon server/src/index.mjs",
+    "start": "node server/src/index.mjs",
+    "dev": "nodemon server/src/index.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.19.2",
+    "express-rate-limit": "^7.5.0",
     "express-validator": "^7.2.0"
   },
   "devDependencies": {
