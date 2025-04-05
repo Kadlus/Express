@@ -14,7 +14,7 @@ app.use(express.json());
 //omezený počet requestů
 app.use(limiter);
 
-app.use(cors(corsOptions));
+//app.use(cors(corsOptions));
 //použití souboru jako cesta
 app.use("/", homeRouter)
 app.use("/products", productRouter);
