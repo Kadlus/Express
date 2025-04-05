@@ -12,7 +12,7 @@ router.get('/:id', (req, res) => {
     const query = products.find(item => item.id === id);
     console.log(query)
     if (!query) {
-        return res.status(404).send({"message": "No product found with this id "});
+        return res.status(404).send({"message": "Thi product not found "});
     }
     res.send(query);
 })
