@@ -1,7 +1,7 @@
 import express from 'express';
-//import limiter from 'express-rate-limit';
 import cors from 'cors';
 import { corsOptions } from './cors.mjs';
+import { limiter } from '../middleware/rateLimit.mjs'
 const app = express();
 
 //nutné importovat routes ze souborů
@@ -11,7 +11,7 @@ import productRouter from '../routes/products.mjs';
 //parsování do JSON
 app.use(express.json());
 //omezený počet requestů
-//app.use(limiter);
+app.use(limiter);
 
 app.use(cors(corsOptions));
 //použití souboru jako cesta
